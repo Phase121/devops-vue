@@ -20,12 +20,10 @@ This is a simple Vue.js application named **DevOps Vue** that displays the curre
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Phase121/devops-vue.git
    cd devops-vue
    ```
-
-   Replace `<repository-url>` with the actual URL of your repository.
-
+   
 2. **Install dependencies**:
 
    ```bash
@@ -46,18 +44,7 @@ By default, the application will run on `http://localhost:8080`.
 
 If you want to change the port on which the application runs, you can do so by modifying the `package.json` file or by using the command line.
 
-#### Method 1: Modify `package.json`
-
-1. Open the `package.json` file in your project directory.
-2. Find the `scripts` section and modify the `serve` command to include the desired port. For example, to change the port to `3000`:
-
-   ```json
-   "scripts": {
-     "serve": "vue-cli-service serve --port 3000"
-   }
-   ```
-
-#### Method 2: Command Line
+#### Method 1: Command Line
 
 You can also specify the port directly in the command line when starting the application:
 
